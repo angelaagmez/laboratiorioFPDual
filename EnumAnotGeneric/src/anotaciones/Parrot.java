@@ -1,6 +1,7 @@
 package anotaciones;
 
 @AnimalMetadata(fecha = "25/10/2020", pais = "Nueva Zelanda")
+@Risk(nivelDeRiesgo = 2, nombre = "Riesgo bajo")
 public class Parrot extends Animales{
 	private String colorPlumas;
 	private boolean habla;

@@ -2,6 +2,8 @@ package anotaciones;
 
 
 @AnimalMetadata(fecha = "15/07/2010", pais = "Perú")
+@Risk(nivelDeRiesgo= 3, nombre = "Riesgo bajo pinguino normal")
+@Risk(nivelDeRiesgo= 6, nombre = "Riesgo medio pinguino emperador")
 public class Penguin extends Animales{
 	private boolean emperador;
 	private int longitudPico;

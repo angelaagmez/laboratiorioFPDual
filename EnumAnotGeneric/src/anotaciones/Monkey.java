@@ -1,6 +1,7 @@
 package anotaciones;
 
 @AnimalMetadata(fecha = "12/03/2009", pais = "Tailandia")
+@Risk(nivelDeRiesgo= 5, nombre = "Riesgo medio")
 public class Monkey extends Animales{
 	private boolean tieneHijos;
 	private double altura;
