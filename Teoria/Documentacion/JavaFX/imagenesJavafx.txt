@@ -1,0 +1,6 @@
+las imagenes van en la carpeta de recursos (resources)
+imageView - direccion de la imagen en el javafx scene builder
+se crea etiqueta image - podemos poner @nombre
+
+Boton distinto:
+contiene imageview

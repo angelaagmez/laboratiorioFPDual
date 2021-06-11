@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "6839f227-e94a-465e-b446-490b8b0440fb",
+		"name": "FpDual",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Put getNotification",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/fpDualWeb/api/notifications/get/1234/Pepe",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fpDualWeb",
+						"api",
+						"notifications",
+						"get",
+						"1234",
+						"Pepe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetXML",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/fpDualWeb/api/notifications/getXML/1234",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fpDualWeb",
+						"api",
+						"notifications",
+						"getXML",
+						"1234"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get con Name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/fpDualWeb/api/notifications/get/147/name?name=Angela",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fpDualWeb",
+						"api",
+						"notifications",
+						"get",
+						"147",
+						"name"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Angela"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ejemplo Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 147,\r\n    \"title\": \"Angela\",\r\n    \"body\": \"test notification\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/fpDualWeb/api/notifications/post",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fpDualWeb",
+						"api",
+						"notifications",
+						"post"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

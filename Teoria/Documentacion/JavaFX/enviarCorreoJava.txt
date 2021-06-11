@@ -1,0 +1,12 @@
+https://www.javatpoint.com/example-of-sending-email-using-java-mail-api
+
+Para probar:
+main{
+new Sender().send("email del que envia","email que recibe","Asunto","Contenido");
+}
+
+Devuelve 220 Conexion exitosa y mas datos
+También que el correo ha sido entregado
+
+Para enviar fichero: sendind attachment
+Cambia el contenido del mensaje

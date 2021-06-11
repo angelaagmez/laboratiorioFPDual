@@ -1,0 +1,11 @@
+Multipart multipart = new MimeMultipart( "alternative" );
+
+    MimeBodyPart textPart = new MimeBodyPart();
+    textPart.setText( text, "utf-8" );
+
+    MimeBodyPart htmlPart = new MimeBodyPart();
+    htmlPart.setContent( html, "text/html; charset=utf-8" );
+
+    multipart.addBodyPart( textPart );
+    multipart.addBodyPart( htmlPart );
+    message.setContent( multipart );

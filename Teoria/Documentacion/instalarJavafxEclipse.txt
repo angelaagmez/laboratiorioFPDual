@@ -1,0 +1,2 @@
+Instalar javafx eclipse:
+https://o7planning.org/10619/install-efxclipse-for-eclipse
